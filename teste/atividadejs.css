@@ -1,0 +1,169 @@
+.body {
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    flex-direction: column;
+    width: 1470px;
+    height: 320px;
+    background: linear-gradient(#4DFF81, #D6860F);
+    filter: drop-shadow(0px 0px 30px rgb(93,86,88));
+
+}
+
+.card {
+    text-align: justify;
+    position: relative;
+    flex-direction: column;
+    width: 190px;
+    height: 254px;
+    background-color: white;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    left: 100px;
+    top: 20px;
+    
+}
+ .card::after{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease;
+    height: 98%;
+    height: 98%;
+    top: 1%;
+    left: 1%;
+    border-radius: 28px;
+ }
+
+.card:hover {
+    filter: drop-shadow(0px 0px 30px rgb(32,33,36));
+
+}
+
+.r {
+    position:center;
+}
+.card2 {
+    text-align: justify;
+    position: relative;
+    flex-direction: column;
+    width: 190px;
+    height: 254px;
+    background-color: white;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    left: 350px;
+    top: -300px;
+    
+}
+
+.card2::after::after{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease;
+    height: 98%;
+    height: 98%;
+    top: 1%;
+    left: 1%;
+    border-radius: 28px;
+ }
+ 
+.card2:hover {
+    filter: drop-shadow(0px 0px 30px rgb(32,33,36));
+
+}
+
+.card3 {
+    text-align: justify;
+    position: relative;
+    flex-direction: column;
+    width: 190px;
+    height: 254px;
+    background-color: white;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    left: 600px;
+    top: -554px;
+    
+}
+
+.card3::after{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease;
+    height: 98%;
+    height: 98%;
+    top: 1%;
+    left: 1%;
+    border-radius: 28px;
+ }
+
+.card3:hover {
+    filter: drop-shadow(0px 0px 30px rgb(32,33,36));
+
+} 
+
+.card4 {
+    text-align: justify;
+    position: relative;
+    flex-direction: column;
+    width: 190px;
+    height: 254px;
+    background-color: white;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    left: 860px;
+    top: -808px;
+    
+}
+
+.card4::after{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease;
+    height: 98%;
+    height: 98%;
+    top: 1%;
+    left: 1%;
+    border-radius: 28px;
+ }
+
+.card4:hover {
+    filter: drop-shadow(0px 0px 30px rgb(32,33,36));
+
+}
+.card5 {
+    text-align: justify;
+    position: relative;
+    flex-direction: column;
+    width: 190px;
+    height: 254px;
+    background-color: white;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    left: 1120px;
+    top: -1062px;
+    
+}
+
+.card5::after{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease;
+    height: 98%;
+    height: 98%;
+    top: 1%;
+    left: 1%;
+    border-radius: 28px;
+ }
+
+.card5:hover {
+    filter: drop-shadow(0px 0px 30px rgb(32,33,36));
+
+}
